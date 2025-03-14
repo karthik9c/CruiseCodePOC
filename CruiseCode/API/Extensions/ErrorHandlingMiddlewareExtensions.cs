@@ -1,6 +1,6 @@
-﻿using SharePointAPI.Middleware;
+﻿using API.Middleware;
 
-namespace SharePointAPI.Extensions
+namespace API.Extensions
 {
     public static class ErrorHandlingMiddlewareExtensions
     {

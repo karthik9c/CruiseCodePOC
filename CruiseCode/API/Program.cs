@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Web;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using SharePointAPI.Extensions;
+using API.Extensions;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);

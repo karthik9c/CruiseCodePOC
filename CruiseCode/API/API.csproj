@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-SharePointAPI-f9bb2b3d-7b24-4815-80f0-dd51587b26d2</UserSecretsId>
+    <UserSecretsId>aspnet-API-f9bb2b3d-7b24-4815-80f0-dd51587b26d2</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

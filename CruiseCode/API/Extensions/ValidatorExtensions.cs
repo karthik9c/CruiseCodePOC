@@ -1,6 +1,6 @@
 ﻿using FluentValidation;             // For Validators
 
-namespace SharePointAPI.Extensions
+namespace API.Extensions
 {
     public static class ValidatorExtensions
     {

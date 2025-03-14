@@ -6,7 +6,7 @@ using Infrastructure.APIStandard.Models.Enum;
 using Utlities;
 using API.Helper;
 
-namespace SharePointAPI.Middleware
+namespace API.Middleware
 {
     public class ErrorHandlingMiddleware
     {
