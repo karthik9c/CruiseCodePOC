@@ -1,4 +1,5 @@
-﻿using Infrastructure.APIStandard.Models.Enum;
+﻿using API.Constants;
+using Infrastructure.APIStandard.Models.Enum;
 using Newtonsoft.Json;
 using System.Net;
 using Utlities;
@@ -9,7 +10,7 @@ namespace API.Helper
     {
         public static Task HandleErrorAsync(HttpContext context, ErrorCodes errorCode)
         {
-            context.Response.ContentType = "application/json";
+            context.Response.ContentType = ContentTypeConstant.APPLICATION_JSON;
             context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
             var result = JsonConvert.SerializeObject(new
             {
