@@ -1,13 +1,10 @@
-using Infrastructure.Configuration;
+using API.Extensions;
 using Infrastructure.Extensions;
 using Infrastructure.Logging;
 using Microsoft.ApplicationInsights.Extensibility;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Identity.Web;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using API.Extensions;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
