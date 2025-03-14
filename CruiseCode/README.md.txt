@@ -23,7 +23,7 @@ Visual Studio (2022 or later)
 	DomainURL/swagger/index.html
 
 6. Run api/DummyJWT for JWT token generation and save it
-	Run it to generate JWT token which will be valid for 30 mins and save the token 
+	Run it to generate JWT token which will be valid for 30 mins and save the token with "bearer" appended
 
 7. Run api/octo/supplier
 	Run this get request to get supplier details
