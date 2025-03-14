@@ -3,6 +3,8 @@ Before running the API, ensure you have the following installed:
 .NET SDK (.Net Core)
 Visual Studio (2022 or later)
 
+Follow below steps to run application
+
 1. Clone the Repository
 	clone the project: 
 
